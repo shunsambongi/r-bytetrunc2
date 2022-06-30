@@ -1,0 +1,17 @@
+Package: bytetrunc2
+Title: Truncate text by bytesize
+Version: 0.1.0
+Authors@R: 
+    person("Shun", "Sambongi", , "shunsambongi@gmail.com", role = c("aut", "cre"))
+Description: Truncate text by a maximum bytesize in UTF-8, rather than by
+    character count.
+License: file LICENSE
+Suggests: 
+    testthat (>= 3.0.0)
+LinkingTo: 
+    cpp11
+Config/testthat/edition: 3
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.2.0
+SystemRequirements: C++11
